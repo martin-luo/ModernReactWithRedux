@@ -1,3 +1,43 @@
 {
-  "streams": []
+  "streams": [
+    {
+      "title": "First ever stream",
+      "description": "This is the first ever stream!",
+      "id": 1
+    },
+    {
+      "title": "Second Stream",
+      "description": "2nd stream",
+      "id": 2
+    },
+    {
+      "title": "Third streams",
+      "description": "This is the 3rd streams",
+      "id": 3
+    },
+    {
+      "title": "I created this stream",
+      "description": "Yes, by me!",
+      "userId": "115973068654645078737",
+      "id": 4
+    },
+    {
+      "title": "4th?",
+      "description": "I think this is the 4th one!!!! :-D",
+      "userId": "115973068654645078737",
+      "id": 5
+    },
+    {
+      "title": "5th one",
+      "description": "55555!",
+      "userId": "115973068654645078737",
+      "id": 6
+    },
+    {
+      "title": "New stream",
+      "description": "Stream created using the refactored form",
+      "userId": "115973068654645078737",
+      "id": 7
+    }
+  ]
 }
