@@ -24,10 +24,11 @@ const ResourceList = ({ resource }) => {
   }, [resource]);
 
   return (
-    <div>
-      {resource}
-      <div>{resources.length}</div>
-    </div>
+    <ul>
+      {resources.map((record) => (
+        <li key={record.id}>{record.title}</li>
+      ))}
+    </ul>
   );
 };
 
