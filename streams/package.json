@@ -5,7 +5,8 @@
   "scripts": {
     "client": "npm run start --prefix client",
     "server": "npm run start --prefix api",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "rtmp-server": "npm run start --prefix rtmpserver",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run rtmp-server\""
   },
   "author": "Martin Luo",
   "license": "ISC"
